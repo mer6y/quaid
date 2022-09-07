@@ -1,0 +1,118 @@
+{
+  "authentication": {
+    "roblox cookie": "...",
+    "discord id": "...",
+
+    "2fa code secret": "..."
+  },
+  "discord": {
+    "show custom values": true,
+
+    "outbound webhook url": "",
+    "completed webhook url": ""
+  },
+  "players": {
+    "maximum days since last online": 7,
+
+    "do not send to": [1, 313413844]
+  },
+  "items": {
+    "minimum average daily sales for value": 0,
+    "minimum average daily sales for rap": 0.4,
+    "minimum limited time in days": 100,
+
+    "do not trade for if selling underrap": true,
+
+    "do not trade for": [],
+    "do not trade away": [151784526, 19112054],
+
+    "do not trade for demand": [],
+    "do not trade for trend": [],
+
+    "max hoard": 3,
+
+    "trade for rares": false,
+    "trade for custom valued rares": true,
+    "only trade for rares": false,
+
+    "value update interval in seconds": 20,
+
+    "fetch custom values from server url": false,
+    "custom value server url": ""
+  },
+  "trading": {
+    "minimum amount of items to offer": 1,
+    "maximum amount of items to offer": 4,
+    "minimum amount of items to request": 1,
+    "maximum amount of items to request": 4,
+
+    "upgrade only until below X items": 999,
+    "downgrade only until above X items": 0,
+
+    "upgrade": {
+      "enabled": true,
+
+      "minimum value gain": 0.99,
+      "maximum value gain": 1.02,
+      "minimum rap gain": -99,
+      "maximum rap gain": 99,
+
+      "minimum trade value": 0,
+      "maximum trade value": 999999999,
+
+      "apply minimum item value/rap to offering": false,
+      "minimum item value": 0,
+      "maximum item value": 999999999,
+      "minimum item rap": 0,
+      "maximum item rap": 999999999
+    },
+    "mixed": {
+      "enabled": true,
+
+      "minimum value gain": 1.0,
+      "maximum value gain": 1.03,
+      "minimum rap gain": -99,
+      "maximum rap gain": 99,
+
+      "minimum trade value": 0,
+      "maximum trade value": 999999999,
+
+      "apply minimum item value/rap to offering": false,
+      "minimum item value": 0,
+      "maximum item value": 999999999,
+      "minimum item rap": 0,
+      "maximum item rap": 999999999
+    },
+    "downgrade": {
+      "enabled": true,
+
+      "minimum value gain": 1.01,
+      "maximum value gain": 1.04,
+      "minimum rap gain": -99,
+      "maximum rap gain": 99,
+
+      "minimum trade value": 0,
+      "maximum trade value": 999999999,
+
+      "apply minimum item value/rap to offering": false,
+      "minimum item value": 0,
+      "maximum item value": 999999999,
+      "minimum item rap": 0,
+      "maximum item rap": 999999999
+    },
+
+    "trade my unvalued rap items": true,
+    "trade for rap": true
+  },
+  "bounds": {
+    "outbounds": {
+      "expire old outbounds": true,
+      "max outbound age in hours": 48
+    }
+  },
+  "miscellaneous": {
+    "automatically solve mfa": false,
+
+    "update config while bot is running": true
+  }
+}

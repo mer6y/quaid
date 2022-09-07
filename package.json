@@ -1,0 +1,55 @@
+{
+  "name": "quaid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "build": "pkg . -t win --out-path output -C GZip"
+  },
+  "keywords": [],
+  "author": "mix",
+  "license": "ISC",
+  "bin": "index.js",
+  "pkg": {
+    "scripts": [],
+    "assets": [
+      "\\node_modules\\vm2\\lib\\setup-sandbox.js",
+      "\\node_modules\\better-sqlite3\\build\\better_sqlite3.node",
+      "\\node_modules\\better-sqlite3\\build\\Debug\\better_sqlite3.node",
+      "\\node_modules\\better-sqlite3\\build\\Release\\better_sqlite3.node",
+      "\\node_modules\\better-sqlite3\\out\\Debug\\better_sqlite3.node",
+      "\\node_modules\\better-sqlite3\\Debug\\better_sqlite3.node",
+      "\\node_modules\\better-sqlite3\\out\\Release\\better_sqlite3.node",
+      "\\node_modules\\better-sqlite3\\Release\\better_sqlite3.node",
+      "\\node_modules\\better-sqlite3\\build\\default\\better_sqlite3.node",
+      "\\node_modules\\better-sqlite3\\compiled\\18.1.0\\win32\\x64\\better_sqlite3.node",
+      "\\node_modules\\better-sqlite3\\addon-build\\release\\install-root\\better_sqlite3.node",
+      "\\node_modules\\better-sqlite3\\addon-build\\debug\\install-root\\better_sqlite3.node",
+      "\\node_modules\\better-sqlite3\\addon-build\\default\\install-root\\better_sqlite3.node",
+      "\\node_modules\\better-sqlite3\\lib\\binding\\node-v108-win32-x64\\better_sqlite3.node"
+    ]
+  },
+  "dependencies": {
+    "aes256": "^1.1.0",
+    "chalk": "^3.0.0",
+    "colors": "^1.4.0",
+    "discord.js": "^13.10.2",
+    "node-2fa": "^2.0.3",
+    "sequelize": "^6.21.3",
+    "sqlite3": "^5.0.11",
+    "superagent": "^8.0.0",
+    "superagent-proxy": "^3.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foobball/quaidv3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/foobball/quaidv3/issues"
+  },
+  "homepage": "https://github.com/foobball/quaidv3#readme",
+  "description": ""
+}
